@@ -72,6 +72,12 @@ const Nav = ({ settings, lang, pathname }) => {
                   </Link>
                 </li>
 
+                <li key={6} >
+                  <Link to={`/jobs`} className='nav-menu-item' target='new'>
+                    {`Jobs`}
+                  </Link>
+                </li>
+
                 <li key={999} className='d-flex align-items-center launch-button'>
                   <a href="https://app.sommelier.finance" className='nav-menu-item nav-menu-item--launch' target="_blank">
                   <img src={frameImg} alt='frame image' className='mr-2'/>
